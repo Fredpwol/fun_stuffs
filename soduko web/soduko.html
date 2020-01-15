@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soduko</title>
+    <link rel="stylesheet" href="css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+
+    <style>
+        table { 
+                border-collapse: collapse; font-family: Calibri, sans-serif;
+            }
+        colgroup, tbody {
+            border: solid medium; 
+            }
+        td{
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            font: 2em sans-serif;
+            background-color: #cacccf;
+            color: grey;
+            border: solid thin; height: 1.4em; 
+            width: 1.4em;
+            padding: 0; 
+        }
+        .board{
+            border-width: 5px;
+            height: 600px;
+            width: 60%;
+            border-color:black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="jumbotron"> Welcome to the Game of Soduko</div>
+            <button id='solve'>Solve</button>
+            <button id='clear'>Clear</button>
+    </div>
+    <div class="container">
+    <table class="board" align="center">
+        <colgroup><col><col><col></colgroup>
+        <colgroup><col><col><col></colgroup>
+        <colgroup><col><col><col></colgroup>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="jquery-3.4.1.min.js"></script>
+<script src="backup_script.js"></script>
+</html>
