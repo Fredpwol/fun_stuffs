@@ -1,2 +1,2 @@
 # fun_stuffs
-This is where all my mercellenious side projects are been kept
+This is where all my mecellenious side projects are been kept
